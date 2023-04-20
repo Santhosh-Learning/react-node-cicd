@@ -5,4 +5,4 @@ on:
 
 jobs:
   ResuableWorkflowCall:
-        uses: Santhosh-Learning/Actions_Practice_New/.github/workflows/reusableworkflow.yml
+        uses: Santhosh-Learning/Actions_Practice_New/.github/workflows/reusableworkflow.yml@main
