@@ -1,4 +1,4 @@
-name: Dependabot fetch metadata
+name: Dependabot fetching metadata
 
 on: pull_request
 
