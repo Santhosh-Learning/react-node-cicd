@@ -1,4 +1,4 @@
-name: Dependabot fetching metadata
+name: Dependabot fetching metadata and auto merging
 
 on: pull_request
 
