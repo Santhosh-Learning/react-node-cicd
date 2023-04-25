@@ -3,13 +3,13 @@ name: Merge Dependabot Pull Requests
 on:
   pull_request:
     types: [closed]
-  workflow_dispatch:  
+  workflow_dispatch: 
 
 permissions:
   id-token: write
   contents: read
   issues: write
-  pull-requests: write  
+  pull-requests: write   
 
 jobs:
   merge_dependabot_pull_requests:
@@ -20,7 +20,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Merge pull request
-        uses: juliangruber/merge-pull-request-action@v1
+        uses: pascalgn/automerge-action@v0.14.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: 3
+          github_token: ${{ secrets.GITHUB_TOKEN }}
