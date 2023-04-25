@@ -19,7 +19,6 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Add a label for dependency updates
-        run: gh pr edit "$PR_URL" --add-label "santhosh-test"
         env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr edit "$PR_URL" --add-label "santhosh-test"
