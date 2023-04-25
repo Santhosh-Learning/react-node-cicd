@@ -5,6 +5,12 @@ on:
     types: [closed]
   workflow_dispatch:  
 
+permissions:
+  id-token: write
+  contents: read
+  issues: write
+  pull-requests: write  
+
 jobs:
   merge_dependabot_pull_requests:
     runs-on: ubuntu-latest
