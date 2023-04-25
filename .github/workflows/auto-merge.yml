@@ -8,7 +8,6 @@ on:
 jobs:
   merge_dependabot_pull_requests:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged && contains(github.event.pull_request.head.ref, 'dependabot/')
 
     steps:
       - name: Checkout code
