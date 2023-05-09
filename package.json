@@ -13,8 +13,7 @@
     "testEnvironment":  "node",
     "coveragePathIgnorePatterns": [
         "/node_modules/"
-    ],
-    "testResultsProcessor":  "jest-sonar-reporter"
+    ]
   },
   "jestSonar": {
     "reportPath":  "coverage",
