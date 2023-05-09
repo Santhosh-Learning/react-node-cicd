@@ -4,8 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start:dev": "node src/server.js",
-    "test:dev": "jest --coverage",
     "test": "jest",
     "start": "node app.js"
   },
