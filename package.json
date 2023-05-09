@@ -9,19 +9,6 @@
     "test": "jestSonar",
     "start": "node app.js"
   },
-  "jest": {
-    "testEnvironment":  "node",
-    "verbose": true,
-    "coveragePathIgnorePatterns": [
-        "/node_modules/"
-    ],
-    "testResultsProcessor":  "jest-sonar-reporter"
-  },
-  "jestSonar": {
-    "reportPath":  "coverage",
-    "reportFile":  "test-reporter.xml",
-    "indent":  2
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
