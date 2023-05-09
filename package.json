@@ -7,9 +7,6 @@
     "test": "jest",
     "start": "node app.js"
   },
-  "jest": {
-    "testEnvironment":  "node"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
