@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "node src/server.js",
     "test:dev": "jest --coverage",
-    "test": "jest",
+    "test": "jestSonar",
     "start": "node app.js"
   },
   "jest": {
