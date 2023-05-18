@@ -1,0 +1,6 @@
+projectKey=Test2
+serverUrl=https://sonar.anywhere.co
+serverVersion=9.3.0.51899
+dashboardUrl=https://sonar.anywhere.co/dashboard?id=Test2
+ceTaskId=AYgAJUom8RnhS6nTNtLX
+ceTaskUrl=https://sonar.anywhere.co/api/ce/task?id=AYgAJUom8RnhS6nTNtLX
