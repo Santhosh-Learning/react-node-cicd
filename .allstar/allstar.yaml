@@ -1,4 +1,1 @@
-optConfig:
-  optOutStrategy: false
-  optInRepos:
-    - react-node-cicd
+optOut: false
