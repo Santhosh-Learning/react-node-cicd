@@ -1,2 +1,3 @@
 optConfig:
-  optOutStrategy: false
+  optOutStrategy: true
+action: issue
